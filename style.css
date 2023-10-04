@@ -1,0 +1,53 @@
+/* main body */
+body{
+    background: linear-gradient(90deg, rgba(102,28,132,1) 0%, rgba(102,28,132,1) 0%, rgba(86,2,119,1) 1%, rgba(228,238,234,1) 100%);
+    font-family: cursive;
+}
+/* main container */
+#container{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+
+}
+/* common property */
+.rods{
+    height: 20px;
+    width: 300px;
+    background-color:#e4eeea;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 50%;
+    color:black;
+    font-size: large;
+    text-transform: capitalize;
+    border: 2px solid black;
+    padding:6px;
+}
+/* for top rod(first) */
+#rod1{
+    top:0;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+/* ball */
+#circle{
+    position: fixed;
+    left: 60%;
+    top:20px;
+}
+/* for bottom rod (second) */
+#rod2{
+    bottom: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+/* display score card */
+#display{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    color:white;
+    font-size: larger;
+}
